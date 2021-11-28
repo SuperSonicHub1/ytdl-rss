@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>youtube-dl RSS</h1>
+<p>Create an RSS feed for a playlist.</p>
+<form action="/feed" method="get">
+	<label>
+		URL:
+		<input type="url" name="url" id="url">
+	</label>
+	<br>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}

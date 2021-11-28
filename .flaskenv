@@ -1,0 +1,2 @@
+FLASK_APP=ytdl_rss
+FLASK_ENV=development
